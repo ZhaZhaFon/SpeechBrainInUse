@@ -6,6 +6,8 @@ train-8k:
 #	python3 ./train_speaker_embeddings.py ./hparams/config_train_ecapa_8k.yaml
 	python3 ./config_train_encoder.py ./hparams/config_train_ecapa_8k.yaml
 
+train-v12-8k:
+	python3 ./config_train_encoder.py ./hparams/config_train_ecapa_v12_8k.yaml
 
 ### x-vector
 
